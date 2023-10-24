@@ -23,6 +23,8 @@ if __name__ == "__main__":
         try:
             numero = int(input("Por favor, ingrese un número entero no negativo: "))
             resultado = cuenta_regresiva(numero, cuenta_atras)
+            # Salida 1
             print("Cuenta regresiva desde", numero, "hasta 0:", resultado)
         except ValueError as e:
+            # Salida 2
             print("Error:", e)
